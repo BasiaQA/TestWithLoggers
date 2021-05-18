@@ -1,0 +1,26 @@
+639 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=90 in cache (valid until 11:22:31 18/05/2021 CEST)
+646 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome90=90.0.4430.24 in cache (valid until 12:30:58 18/05/2021 CEST)
+647 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+655 [main] TRACE i.g.b.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+667 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\bmurzynowska\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe, C:\Users\bmurzynowska\.cache\selenium\resolution.properties] -- output list [C:\Users\bmurzynowska\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] 
+667 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by 90.0.4430.24 -- input list [C:\Users\bmurzynowska\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] -- output list [C:\Users\bmurzynowska\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] 
+667 [main] TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\bmurzynowska\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] -- output list [C:\Users\bmurzynowska\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe] 
+668 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 90.0.4430.24 found in cache
+669 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\bmurzynowska\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+1963 [main] INFO  TestBase.class - >>>>> Start test >>>>>>
+2229 [main] INFO  SeleniumFormTest.class - Webpage url: https://seleniumui.moderntester.pl/form.php
+2356 [main] DEBUG SeleniumFormTest.class - First name is: Jan and last name is: Kowalski
+2420 [main] DEBUG SeleniumFormTest.class - Email is: test1@gmail.com 
+2477 [main] DEBUG SeleniumFormTest.class - Radio button properly clicked
+2538 [main] DEBUG SeleniumFormTest.class - Age is: 70 
+2550 [main] DEBUG SeleniumFormTest.class - Number of radios 7
+2584 [main] DEBUG SeleniumFormTest.class - Random index of radio: 0
+2632 [main] DEBUG SeleniumFormTest.class - Checkbox properly clicked
+2734 [main] DEBUG SeleniumFormTest.class - Selected continent: europe
+2850 [main] DEBUG SeleniumFormTest.class - Select by value webelement-commandsoptions: [[[[[ChromeDriver: chrome on WINDOWS (f095ac13951f3c152720c6d8823a3fce)] -> id: selectSeleniumCommands]] -> tag name: option], [[[[ChromeDriver: chrome on WINDOWS (f095ac13951f3c152720c6d8823a3fce)] -> id: selectSeleniumCommands]] -> tag name: option], [[[[ChromeDriver: chrome on WINDOWS (f095ac13951f3c152720c6d8823a3fce)] -> id: selectSeleniumCommands]] -> tag name: option], [[[[ChromeDriver: chrome on WINDOWS (f095ac13951f3c152720c6d8823a3fce)] -> id: selectSeleniumCommands]] -> tag name: option], [[[[ChromeDriver: chrome on WINDOWS (f095ac13951f3c152720c6d8823a3fce)] -> id: selectSeleniumCommands]] -> tag name: option]]
+2895 [main] DEBUG SeleniumFormTest.class - File path is: C:\Java\Lesson8\src\main\resources\file.txt
+2990 [main] DEBUG SeleniumFormTest.class - Additional information is: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla ipsum eget arcu fermentum viverra.
+3039 [main] DEBUG SeleniumFormTest.class - Button properly clicked
+3068 [main] DEBUG SeleniumFormTest.class - Message is: Form send with success
+3707 [main] INFO  TestBase.class - >>>>> Finish test >>>>>> 
+3707 [main] INFO  TestBase.class - Driver has been closed properly
