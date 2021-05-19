@@ -86,6 +86,9 @@ public class SeleniumFormTest extends TestBase {
         getDriver().findElement(By.id("additionalInformations")).sendKeys(inf);
         logger.debug("Additional information is: " + inf);
 
+       WebElement btnFile = getDriver().findElement(By.cssSelector(".btn-secondary"));
+               btnFile.click();
+        logger.debug("Button clicked properly and file: {} has been downloaded", btnFile.getAttribute("href").substring(35));
         getDriver().findElement(By.xpath("//button[@type=('submit')]")).click();
         logger.debug("Button properly clicked");
 
